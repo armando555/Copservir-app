@@ -39,3 +39,6 @@ php artisan db:seed
 ## Modelo entidad relación
 
 ![alt text](https://github.com/armando555/Copservir-app/blob/develop/entidadrelacion.drawio.png)
+
+## video de prueba 
+https://drive.google.com/file/d/1fjrjAvRi5k5Dv-7DFOPD3tbScZEEiBjV/view?usp=sharing
