@@ -2,7 +2,7 @@
 Esta es mi solución para la prueba de conocimiento
 Se necesita instalar previamente php 7.4, Apache, MySQL y Composer para ejecutar los comandos requeridos
 
-Primero se debe clonar este repositorio el cual tiene una aplicación en Laravel de versión 8.12 Y PHP 7.3^.
+Primero se debe clonar este repositorio el cual tiene una aplicación en Laravel de versión 8.12 Y PHP 7.4.
 
 Luego de clonar este repositorio lo que se debe hacer es ejecutar el comando:
 
