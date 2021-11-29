@@ -14,19 +14,21 @@ class ProductController extends Controller
         return view('products.index')->with("data", $data);
     }
 
-    public function home()
+    public function home(Request $request)
     {
+        $request->session()->forget('quantity');
+        $request->session()->forget('products');
         return redirect()->route('home.index');
     }
     public function add($id,Request $request)
     {
         $products = $request->session()->get("products");
         $products [$id] = $id;
-        $quantity = $request->session()->get("quantityFlower");
+        $quantity = $request->session()->get("quantity");
         $quantity[$id] = $request["quantity"];
         $request->session()->put('quantity', $quantity);
         $request->session()->put('products', $products);
-        dd($products,$quantity);
+        //dd($products,$quantity);
         return back();
     }
 }

@@ -53,6 +53,18 @@ class Order extends Model
         $this->attributes['total'] = $total;
     }
 
+    public function getTotalIva()
+    {
+
+        return $this->attributes['total_iva'];
+    }
+
+    public function setTotalIva($total)
+    {
+
+        $this->attributes['total_iva'] = $total;
+    }
+
     public function getDate()
     {
 
