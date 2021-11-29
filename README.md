@@ -31,3 +31,7 @@ finalmente, para el llenado de base de datos se ejecuta el comando
 
 
 php artisan db:seed
+
+## Esquema de base de datos
+
+![alt text](https://raw.githubusercontent.com/armando555/Copservir-app/develop/EsquemaDB.png)
