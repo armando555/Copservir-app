@@ -12,7 +12,6 @@
 
             <br>
             <div class="col-md-8">
-                @include('util.message')
                 <div class="card margin-top margin-bottom">
 
                     <div class="card-header">
@@ -20,8 +19,9 @@
                     </div>
                     <div class="card-body">
                         <ul class="ul-list">
-                            
-                            
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
                         </ul>
 
                     </div>
