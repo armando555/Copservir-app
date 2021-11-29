@@ -11,6 +11,8 @@ class generateReportController extends Controller
     {
         $pdf = app('dompdf.wrapper');
         $pdf->loadHTML($this->convert_data_to_html($id));
+        $request->session()->forget('products');
+        $request->session()->forget('quantity');
         return $pdf->download('report.pdf');
     }
     public function convert_data_to_html($id)
