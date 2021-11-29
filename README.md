@@ -13,6 +13,11 @@ luego de haber instalado las librerías tenemos que crear el archivo .env basado
 
 luego de realizar composer install, se ejecuta el comando
 
+
+composer require barryvdh/laravel-dompdf
+
+Luego este comando,
+
 php artisan key:generate
 
 posteriormente, se ejecuta el comando
