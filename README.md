@@ -34,4 +34,4 @@ php artisan db:seed
 
 ## Esquema de base de datos
 
-![alt text](https://github.com/armando555/Copservir-app/develop/EsquemaDB.png)
+![alt text](https://github.com/armando555/Copservir-app/blob/develop/esquemaDB.png)
