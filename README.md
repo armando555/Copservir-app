@@ -35,3 +35,7 @@ php artisan db:seed
 ## Esquema de base de datos
 
 ![alt text](https://github.com/armando555/Copservir-app/blob/develop/esquemaDB.png)
+
+## Modelo entidad relación
+
+![alt text](https://github.com/armando555/Copservir-app/blob/develop/entidadrelacion.drawio.png)
